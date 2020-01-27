@@ -2,7 +2,7 @@
 
 version       = "0.1.0"
 author        = "Kristian Mandrup"
-description   = "Mithril bindings for Nim"
+description   = "Nim bindings for Mithril 2.x"
 license       = "MIT"
 srcDir        = "src"
 
