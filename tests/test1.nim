@@ -8,5 +8,5 @@
 import unittest
 
 import mithril_nim
-test "can add":
-  check add(5, 5) == 10
+# test "can add":
+#   check add(5, 5) == 10
