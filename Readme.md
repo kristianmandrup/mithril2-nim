@@ -1,4 +1,4 @@
-# Nim bindings for Mithril
+# Nim bindings for Mithril 2.x
 
 The library aims to contain Nim bindings for [Mithril](https://mithril.js.org/) 2.x, a modern client-side JavaScript framework for building Single Page Applications.
 
@@ -6,7 +6,7 @@ The library aims to contain Nim bindings for [Mithril](https://mithril.js.org/) 
 
 See [Mithril API](https://mithril.js.org/api.html)
 
-``nim
+```nim
 proc render*(selector: cstring, attrs: JsObject, children: auto): auto {.
 importcpp: "m.render(#)".}
 proc m*(selector: cstring, attrs: JsObject, children: auto): auto
